@@ -1,9 +1,9 @@
 import os
 from pathlib import Path
-from mlproject import *
-from mlproject.entity.config_entity import DataTransformationConfig
-from mlproject.config.configuration import ConfigurationManager
-from mlproject.components.data_transformation import DataTransformation
+from src.mlproject import *
+from src.mlproject.entity.config_entity import DataTransformationConfig
+from src.mlproject.config.configuration import ConfigurationManager
+from src.mlproject.components.data_transformation import DataTransformation
 
 
 STAGE_NAME = "Data Transformation stage"

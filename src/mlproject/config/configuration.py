@@ -2,9 +2,9 @@ from src.mlproject.constants import *
 from src.mlproject.utils.common import read_yaml, create_directories
 from src.mlproject.entity.config_entity import DataIngestionConfig
 from src.mlproject.entity.config_entity import DataValidationConfig
-from mlproject.entity.config_entity import DataTransformationConfig
-from mlproject.entity.config_entity import ModelTrainerConfig
-from mlproject.entity.config_entity import ModelEvaluationConfig
+from src.mlproject.entity.config_entity import DataTransformationConfig
+from src.mlproject.entity.config_entity import ModelTrainerConfig
+from src.mlproject.entity.config_entity import ModelEvaluationConfig
 
 class ConfigurationManager:
     def __init__(

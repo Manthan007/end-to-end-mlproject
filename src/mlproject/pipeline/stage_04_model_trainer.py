@@ -1,6 +1,6 @@
-from mlproject.config.configuration import ConfigurationManager
-from mlproject.components.model_trainer import ModelTrainer
-from mlproject import logger
+from src.mlproject.config.configuration import ConfigurationManager
+from src.mlproject.components.model_trainer import ModelTrainer
+from src.mlproject import logger
 
 STAGE_NAME = "Model Trainer stage"
 
