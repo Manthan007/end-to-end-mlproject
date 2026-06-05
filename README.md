@@ -113,7 +113,7 @@ export MLFLOW_TRACKING_PASSWORD=855107a7af7c57466b2c556a7c556df337a2bd2e
 
 	
 ## 3. Create ECR repo to store/save docker image
-    - Save the URI: 566373416292.dkr.ecr.ap-south-1.amazonaws.com/mlproj
+    - Save the URI: 644724502783.dkr.ecr.ap-southeast-2.amazonaws.com/mlproject
 
 	
 ## 4. Create EC2 machine (Ubuntu) 
@@ -121,7 +121,7 @@ export MLFLOW_TRACKING_PASSWORD=855107a7af7c57466b2c556a7c556df337a2bd2e
 ## 5. Open EC2 and Install docker in EC2 Machine:
 	
 	
-	#optinal
+	#optional
 
 	sudo apt-get update -y
 
